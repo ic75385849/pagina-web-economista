@@ -1,0 +1,250 @@
+body {
+    font-family: cursive;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #f5f5f5, #e0e0e0); 
+    color: #333333; 
+}
+
+a {
+    color: #333333; 
+    text-decoration: none;
+}
+
+a:hover {
+    color: #a1a1a1; 
+}
+
+header {
+    background: #424242;
+    color: black;
+    padding: 20px;
+    min-height: 70px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo img {
+    max-width: 80px;
+    border-radius: 50%;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+header nav {
+    text-align: end;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    font-size: 18px;
+    color: black;
+}
+
+header nav ul li a:hover {
+    color: rgb(87, 117, 218); 
+}
+
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+.carousel-inner {
+    text-align: center;
+}
+
+.carousel-inner img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+
+.contact-form {
+    margin-top: 20px;
+}
+
+.contact-form .form-group {
+    margin-bottom: 15px;
+}
+
+.contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    background-color: #424242;
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.contact-form button:hover {
+    background-color: #616161; 
+}
+
+
+.contact-info {
+    margin-top: 40px;
+}
+
+.contact-info h3 {
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    header nav ul li {
+        display: block;
+        margin-right: 0;
+    }
+
+    header nav ul li a {
+        font-size: 16px;
+    }
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #424242; 
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 50%;
+    text-align: center;
+    display: none; 
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    font-size: 14px;
+    transition: background-color 0.3s, transform 0.3s; 
+}
+
+.back-to-top:hover {
+    background-color: #616161;
+    transform: scale(1.1);
+}
+
+
+.show {
+    display: block;
+}
+
+footer {
+    background-color: #424242;
+    color: black;
+    padding: 40px 0;
+}
+
+footer h3 {
+    color: black;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+footer .social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer .social-icons li {
+    margin: 0 10px;
+}
+
+footer .social-icons li a {
+    color:black;
+    font-size: 24px;
+}
+
+footer .social-icons li a:hover {
+    color: #ffc107; 
+}
